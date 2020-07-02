@@ -1,0 +1,40 @@
+.image-style {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+.overlay-div {
+    height:30rem;
+    width: 20rem;
+    border-radius: 15px;
+    position:absolute;
+    background-color:#000;
+    -webkit-box-shadow: 2px 4px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 4px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 15px 0px rgba(0,0,0,0.5);
+    opacity:.6;
+}
+
+.card {
+    width: 20rem;
+    height: 30rem;
+    margin: 0 3rem;
+    border-radius: 15px;
+}
+
+.divider-pricing {
+    border: 0.5px solid;
+    width: 10rem;
+}
+
+.card-img-overlay {
+    color: whitesmoke;
+}
+
+.btn-radius {
+    border-radius: $button-border-radius;
+}
+
+.period {
+    font-size: 1rem;
+}

@@ -1,0 +1,39 @@
+header.about-header {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - #{$navbar-height});
+    background: linear-gradient(to bottom, #{fade-out(#000000, .4)} 0%,#{fade-out(#000000, .3)} 100%), url('../images/about-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    h1 {
+        font-size: $header-font-size;
+        font-family: $logo-font;
+	}
+}
+
+.background {
+    background-color: #2F2E2E ;
+}
+
+.section-padding {
+    padding: 1rem 0;
+}
+
+.header-color {
+    color: $color-secondary;
+}
+
+.values-background {
+    background: linear-gradient(to bottom, #{fade-out(#000000, .3)} 0%,#{fade-out(#000000, .3)} 100%), url('../images/gym-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.value-header {
+    font-size: 16px;
+    margin-top: 5rem;
+}

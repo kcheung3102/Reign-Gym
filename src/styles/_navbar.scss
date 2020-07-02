@@ -1,7 +1,30 @@
 #site-navbar {
+  height: $navbar-height;
   background-color: $color-primary;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.nav-item {
+  color: $color-secondary !important;
+  font-size: 17px;
+  font-weight: 500;
+
+  &:hover {
+    font-weight: bold;
+    transform: scale(1.5);
+  }
+
+}
+
+
+
+
+/*****LOGO******/
+
+.logo-style {
+  font-size: 2rem;
+  font-weight: bold;
 }

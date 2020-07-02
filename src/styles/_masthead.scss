@@ -1,0 +1,29 @@
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(20rem - #{$navbar-height});
+    background: linear-gradient(to bottom, #{fade-out(#000000, .2)} 0%,#{fade-out(#000000, .3)} 100%), url('../images/hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    h1 {
+        font-size: $header-font-size;
+        font-family: $logo-font;
+	}
+
+}
+
+
+    .header-style {
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .emphasis {
+        font-weight: bold;
+        color: $color-secondary;
+    }
+
+    

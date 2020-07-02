@@ -18,7 +18,6 @@ function SEO({ description, lang, meta, keywords, title }) {
           siteMetadata {
             title
             description
-            author
           }
         }
       }
@@ -40,7 +39,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: `Reign Gym`,
           content: title,
         },
         {

@@ -1,0 +1,32 @@
+.card-form {
+margin: auto;
+border: 1px solid #ffffff;
+box-shadow: 0 7px 30px -10px rgba(0, 0, 0, 0.8);
+height: 37rem;
+
+}
+
+.background-signup {
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh;
+}
+
+.input-style {
+    border-radius: 20px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $input-placeholder-color;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $input-placeholder-color;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: $input-placeholder-color;
+}
