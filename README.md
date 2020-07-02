@@ -1,9 +1,9 @@
-# Gatsby React Bootstrap Starter
+# Reign-Gym
 
-A GatsbyJS starter that includes
 
-- react-bootstrap
-- react-icons
-- sticky on scroll navbar
-- SASS compiler
-- basic layout
+## Technologies Used 🛠️
+- Gatsby -  Static Site Generator
+- React - Front End Javascript Library
+- GraphQL -  Query language for APIs
+- React-Bootstrap -  Front End Framework
+- SASS - CSS preprocessor
