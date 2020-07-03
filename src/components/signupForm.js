@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, Col, Row, Button, Card } from 'react-bootstrap';
+import { Form, Button, Card } from 'react-bootstrap';
 
 const signupForm = () => {
     return (
