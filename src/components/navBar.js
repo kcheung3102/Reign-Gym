@@ -37,6 +37,11 @@ const CustomNavbar = ({ pageInfo }) => {
                   About
                 </Nav.Link>
               </Link>
+              <Link to="/account" className="link-no-style  nav-link">
+                <Nav.Link as="span" eventKey="account" className="nav-item">
+                  Account
+                </Nav.Link>
+              </Link>
               </Fade>
           </Nav>
         </Navbar.Collapse>
