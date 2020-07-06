@@ -10,6 +10,10 @@ import ValueCard from '../components/transparentCard';
 
 
 const AboutPage = ({data}) => {
+  const imageData1 = data.image.childImageSharp.fluid;
+  const imageData2 = data.weightImage.childImageSharp.fluid;
+  const imageData3 = data.pullupImage.childImageSharp.fluid;
+
   return (
   <Layout pageInfo={{ pageName: "about" }}>
     <SEO title="About" />
@@ -74,17 +78,17 @@ const AboutPage = ({data}) => {
                   <Col lg={6} md={4}>
                   <Img
                     
-                    fluid={data.image.childImageSharp.fluid}
+                    fluid={imageData1}
                     alt="guy deadlifting"
                   />
                   </Col>
                   <Col>
                       <Img 
                         className="mb-2"
-                        fluid={data.weightImage.childImageSharp.fluid} 
+                        fluid={imageData2} 
                         alt="weights" />
                       <Img 
-                        fluid={data.pullupImage.childImageSharp.fluid} 
+                        fluid={imageData3} 
                         alt="guy doing pull ups" />
                   </Col>
               </Row>

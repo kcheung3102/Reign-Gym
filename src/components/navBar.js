@@ -1,11 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
-
+import { useAuth0 } from "@auth0/auth0-react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap"
 
+const UserNav = () => {
+  const { isLoading, isAuthenticated, logout, loginWithRedirect } = useAuth0();
+  
+  if(isLoading) return null;
+  
+  if(isAuthenticated) return (
+      <Button variant="outline-danger btn-style" onClick={() => logout() }>Log out</Button>
+  )
+
+  return (
+    <Button onClick={loginWithRedirect} variant="outline-danger btn-style">Login</Button>
+  )
+}
+
 const CustomNavbar = ({ pageInfo }) => {
-  console.log(pageInfo)
+    
+
   return (
     <>
       <Navbar variant="dark" expand="lg" id="site-navbar">
@@ -15,18 +30,11 @@ const CustomNavbar = ({ pageInfo }) => {
           <Navbar.Brand as="span" className="logo-style">Reign Gym</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav navbar-light" />
-        <Link to="/signUpPage" className="link-no-style nav-link">
-                <Button variant="outline-danger btn-style">Sign Up</Button>{' '}
-          </Link>
+        <UserNav />
           </Fade>
         <Navbar.Collapse id="basic-navbar-nav" className="text-center">
           <Nav className="ml-auto" activeKey={pageInfo && pageInfo.pageName}>
           <Fade>
-          <Link to="/" className="link-no-style nav-link">
-          <Nav.Link as="span" className="nav-item">
-                  Sign In
-                </Nav.Link>
-          </Link>
           <Link to="/" className="link-no-style  nav-link">
                 <Nav.Link as="span" eventKey="home" className="nav-item">
                   Home
@@ -37,7 +45,7 @@ const CustomNavbar = ({ pageInfo }) => {
                   About
                 </Nav.Link>
               </Link>
-              <Link to="#" className="link-no-style  nav-link">
+              <Link to="/account" className="link-no-style  nav-link">
                 <Nav.Link as="span" eventKey="account" className="nav-item">
                   Account
                 </Nav.Link>
