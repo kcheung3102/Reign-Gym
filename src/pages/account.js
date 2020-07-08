@@ -1,13 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout'
-import { withAuthenticationRequired, useAuth0 } from '@auth0/auth0-react';
+import Profile from '../components/profile'
+import { withAuthenticationRequired } from '@auth0/auth0-react';
 
 
 const account = () => {
     
     return (
         <Layout>
-            <p>Your Account Info</p>
+            <h1>Your Account Info</h1>
+            <Profile />
         </Layout>
     )
 }
