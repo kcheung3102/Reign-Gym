@@ -2,10 +2,13 @@ import React from 'react';
 import {  Button, Row, Col, Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram , faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
-import { graphql, StaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
+import BackgroundImage from 'gatsby-background-image'
 import Fade from 'react-reveal/Fade';
 
-const hero = () => {
+const hero = (props) => {
+   
+
     return (
         <header className="masthead">
           <Container fluid>

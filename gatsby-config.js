@@ -27,6 +27,12 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
+      }
+    }
 
   ],
 }

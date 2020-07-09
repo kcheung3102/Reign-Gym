@@ -9,7 +9,7 @@ import ValueCard from '../components/transparentCard';
 
 
 
-const AboutPage = ({data}) => {
+const AboutPage = ({ data }) => {
   const imageData1 = data.image.childImageSharp.fluid;
   const imageData2 = data.weightImage.childImageSharp.fluid;
   const imageData3 = data.pullupImage.childImageSharp.fluid;
