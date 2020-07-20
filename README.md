@@ -9,7 +9,7 @@ Responsive website inspired by [F45](https://f45training.com)
 ## Features
 - Responsive and mobile friendly
 - User Login/Sign up
-- User Authorization with [Auth0](https://auth0.com/)
+- User Authentication and Authorization with [Auth0](https://auth0.com/)
 
 ## Technologies Used 🛠️
 - [Gatsby](https://www.gatsbyjs.org/) -  Static Site Generator
