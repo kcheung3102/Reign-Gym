@@ -19,7 +19,7 @@ const cardUI = props => {
                         <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
                         
                         <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
-                        <div className="mt-4">
+                        <div className="mt-5">
                             <Button variant="danger btn-radius">Sign Up</Button>{' '}
                         </div>
                     </Card.ImgOverlay>

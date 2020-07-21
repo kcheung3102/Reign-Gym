@@ -16,22 +16,22 @@ export default function pricing() {
             <hr className="divider"></hr>
             </Fade>
             <Row className="justify-content-center align-items-center">
-            <div className="mt-4">
-                <Col lg={4} md={7}>
+            <div className="mt-5">
+                <Col lg={2} md={4} xl={3}>
                 <Zoom>
                     <StyledCard imgsrc={Image1} />
                 </Zoom>
                 </Col>
             </div>
-            <div className="mt-4">
-                <Col lg={4} md={7}>
+            <div className="mt-5">
+                <Col lg={5} md={4} xl={3}>
                 <Zoom>
                     <StyledCard imgsrc={Image2} />
                 </Zoom>
                 </Col>
             </div>
-            <div className="mt-4">
-                <Col lg={4} md={7} >
+            <div className="mt-5">
+                <Col lg={3} md={4} xl={3}>
                 <Zoom>
                     <StyledCard imgsrc={Image2} />
                 </Zoom>
