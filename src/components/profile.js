@@ -3,10 +3,10 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { Card, Image } from 'react-bootstrap';
 
 const Profile = () => {
-  const { user, isAuthenticated } = useAuth0();
+  // const { user, isAuthenticated } = useAuth0();
 
   return (
-    isAuthenticated && (
+    // isAuthenticated && (
       <div className="text-center">
         <Card>
           <Card.Header>Account Info</Card.Header>
@@ -21,7 +21,7 @@ const Profile = () => {
           </Card.Body>
         </Card>
       </div>
-    )
+    // )
   );
 };
 

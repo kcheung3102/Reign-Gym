@@ -8,7 +8,9 @@ const account = () => {
     
     return (
         <Layout>
-            <Profile />
+            <Container>
+                <Profile />
+            </Container>
         </Layout>
     )
 }
