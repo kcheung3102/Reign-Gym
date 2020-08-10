@@ -18,8 +18,13 @@ const cardUI = props => {
                       
                         <Card.Text>Digital Fitness Program</Card.Text>
                         
+<<<<<<< HEAD
                         <Card.Text>Group Exercise Classes</Card.Text>
                         <div className="mt-4">
+=======
+                        <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
+                        <div className="mt-5">
+>>>>>>> 6c2c57fda90a183fdc4612b009529cd8b5b61470
                             <Button variant="danger btn-radius">Sign Up</Button>{' '}
                         </div>
                     </Card.ImgOverlay>
