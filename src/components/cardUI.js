@@ -12,13 +12,13 @@ const cardUI = props => {
                             <h2>$20<span className="period">/Month</span></h2>
                         </Card.Text>
                         <hr className="divider-pricing"></hr>
-                        <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
+                        <Card.Text>24/7 Gym Access</Card.Text>
                        
-                        <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
+                        <Card.Text>Free 14 day Trial with a trainer</Card.Text>
                       
-                        <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
+                        <Card.Text>Digital Fitness Program</Card.Text>
                         
-                        <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
+                        <Card.Text>Group Exercise Classes</Card.Text>
                         <div className="mt-4">
                             <Button variant="danger btn-radius">Sign Up</Button>{' '}
                         </div>
