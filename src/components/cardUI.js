@@ -21,7 +21,7 @@ const cardUI = props => {
                         <Card.Text>Group Exercise Classes</Card.Text>
                 
                         <div className="mt-5">
-                            <Button variant="danger btn-radius">Sign Up</Button>{' '}
+                            <Button variant="danger btn-radius">More</Button>{' '}
                         </div>
                     </Card.ImgOverlay>
             </Card>
